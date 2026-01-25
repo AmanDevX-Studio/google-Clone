@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  border-bottom: 1.5px solid #e1e3e1;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+
+.navbar input {
+  font-size: 14px;
+  display: flex;
+  border-radius: 100px;
+  height: 36px;
+  width: 78vw;
+  border: none;
+  padding-left: 40px;
+  margin: 12px 92px 0px 110px;
+  background-color: #edf2fa;
+}
+.navbar input:hover {
+  background-color: rgb(231, 238, 243);
+}
+.navbar input placeholder {
+  padding-left: 30px;
+}
+left-icons i {
+  cursor: pointer;
+}
+.left-icons {
+  padding-top: 21px;
+  position: absolute;
+  display: inline-block;
+  gap: 18px;
+  display: flex;
+  color: #474747;
+}
+.g-icon {
+  position: absolute;
+  padding: 19px 0px 0px 118px;
+}
+.g-icon img {
+  height: 20px;
+  width: 20px;
+  border-radius: 70px;
+}
+.circle {
+  text-align: center;
+  color: white;
+  height: 22px;
+  width: 22px;
+  border: 1px solid red;
+  border-radius: 70px;
+  background: linear-gradient(
+    135deg,
+    #4285f4 0%,
+    #34a853 50%,
+    #fbbc05 75%,
+    #ea4335 100%
+  );
+
+  cursor: pointer;
+}
+.v-line {
+  display: flex;
+  padding-left: 2px;
+  border-right: 2px solid rgb(171, 204, 245);
+}
+.right-icon span {
+  display: flex;
+  gap: 14px;
+  margin: 9px 0px 0px -70px;
+  cursor: pointer;
+  background: transparent;
+  color: #474747;
+}
+
+/* main */
+.Google-Logo {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  min-height: 30vh; /* full screen center */
+}
+.Google-Logo img {
+  align-items: center;
+  justify-content: center;
+}
+.Google-input {
+  outline: none;
+
+  border-radius: 60px;
+  position: relative; /* 🔒 ICON LOCK */
+  width: 55vw;
+  margin: auto;
+  box-shadow: 1px 0px 4px 1px rgba(128, 128, 128, 0.562);
+}
+.Google-input:hover {
+  width: 55vw;
+
+  border-radius: 60px;
+}
+
+.Google-input input {
+  width: 55vw;
+  border: none;
+  height: 46px;
+  border-radius: 60px;
+  padding-left: 42px; /* left icon ke liye */
+  padding-right: 80px;
+}
+.Google-input > i {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+  font-size: 18px;
+}
+
+.right-icons {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+}
+
+.right-icons i {
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.Google-input input :placeholder-shown {
+  padding-left: 40px;
+}
+.PlusCircle {
+  margin: 30px auto;
+  height: 50px;
+  width: 50px;
+  font-size: 26px;
+  border-radius: 60px;
+  background-color: darkgrey;
+  font-weight: bold;
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+  cursor: pointer;
+}
+.sm-text {
+  margin-top: -18px;
+  text-align: center;
+}
+
+.buttom-right {
+  display: inline-block;
+  display: flex;
+  position: relative;
+  margin: 70px 0px 0px 0px;
+}
+.g-edit {
+  font-size: 14px;
+  background-color: #d3e3fd;
+  padding: 6px 12px 6px 12px;
+  box-shadow: 1px 0px 4px 1px rgba(128, 128, 128, 0.562);
+  border-radius: 60px;
+}
+.icons {
+  font-size: 12px;
+  margin-top: 24px;
+  height: 20px;
+}
+.icons ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  padding: 0;
+  color: #474747;
+}
+.icons ul li {
+  display: flex;
+  cursor: pointer;
+  color: #474747;
+  font-size: 15px;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center */
+}
+.bg-text {
+  text-align: center;
+  color: white;
+  height: 34px;
+  width: 34px;
+}
+aside {
+  display: flex;
+  justify-content: flex-end; /* right side */
+  padding-right: 20px;
+}
